@@ -1,4 +1,4 @@
-yum install java-1.8.0
+yum install -y java-1.8.0
 cd /usr/local
 wget http://www-us.apache.org/dist/tomcat/tomcat-9/v9.0.21/bin/apache-tomcat-9.0.21.tar.gz
 tar -xvf apache-tomcat-9.0.21.tar.gz
