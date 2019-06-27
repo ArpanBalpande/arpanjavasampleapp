@@ -29,7 +29,7 @@ steps:
   inputs:
     SourceFolder: '$(system.defaultworkingdirectory)'
     Contents: '**/*.sh'
-    TargetFolder: '$(build.artifactstagingdirectory)'
+    TargetFolder: '$(build.artifactstagingdirectory)\_ArpanBalpande.arpanjavasampleapp\drop\target\'
   condition: succeededOrFailed()
 
 - task: PublishBuildArtifacts@1
