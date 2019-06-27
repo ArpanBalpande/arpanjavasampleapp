@@ -29,9 +29,3 @@ steps:
   inputs:
     PathtoPublish: '$(build.artifactstagingdirectory)'
   condition: succeededOrFailed()
-  
-- task: AzureRmWebAppDeployment@3
-  inputs:
-    azureSubscription: 'ArpanJavaServiceConnection'
-    WebAppName: 'ArpanJavaDevOps'
-    Package: '$(System.DefaultWorkingDirectory)/**/*.war'
